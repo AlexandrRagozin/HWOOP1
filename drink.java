@@ -1,7 +1,7 @@
 public class drink extends Product {
     private int volume;
     
-    protected Drinks(String name, int cost, int quantity, String measure, int volume) {
+    protected drinks(String name, int cost, int quantity, String measure, int volume) {
         super(name, cost, quantity, measure);
         this.volume = volume;
     }

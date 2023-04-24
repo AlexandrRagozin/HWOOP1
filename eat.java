@@ -1,7 +1,7 @@
 public class eat extends Product {
     private String date;
 
-    protected Eat(String name, int cost, int quantity, String measure, String date) {
+    protected eat(String name, int cost, int quantity, String measure, String date) {
         super(name, cost, quantity, measure);
         this.date = date;
     }
