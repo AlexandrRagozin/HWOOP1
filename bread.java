@@ -1,4 +1,4 @@
-public class Bread extends Eat {
+public class bread extends eat {
     private String type;
     protected Bread(String name, int cost, int quantity, String measure, String date, String type) {
         super(name, cost, quantity, measure, date);
