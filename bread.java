@@ -1,6 +1,6 @@
-public class bread extends eat {
+public class Bread extends Eat {
     private String type;
-    protected bread(String name, int cost, int quantity, String measure, String date, String type) {
+    protected Bread(String name, int cost, int quantity, String measure, String date, String type) {
         super(name, cost, quantity, measure, date);
         this.type = type;
     }

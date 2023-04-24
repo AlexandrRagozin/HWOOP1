@@ -1,6 +1,6 @@
-public class nipple extends forchildren {
+public class Nipple extends ForChildren {
 
-    protected nipple(String name, int cost, int quantity, String measure, int minAge, String hypoallergenic) {
+    protected Nipple(String name, int cost, int quantity, String measure, int minAge, String hypoallergenic) {
         super(name, cost, quantity, measure, minAge, hypoallergenic);
     }
     @Override

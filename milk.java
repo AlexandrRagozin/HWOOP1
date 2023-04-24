@@ -1,6 +1,6 @@
-public class milk extends eat {
+public class Milk extends Eat {
     private int fat;
-    protected milk(String name, int cost, int quantity, String measure, String date, int fat) {
+    protected Milk(String name, int cost, int quantity, String measure, String date, int fat) {
         super(name, cost, quantity, measure, date);
         this.fat = fat;
     }

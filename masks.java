@@ -1,6 +1,6 @@
-public class masks extends forbath {
+public class Masks extends Forbath {
 
-    protected masks(String name, int cost, int quantity, String measure, int size) {
+    protected Masks(String name, int cost, int quantity, String measure, int size) {
         super(name, cost, quantity, measure, size);
     }
 

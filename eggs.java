@@ -1,6 +1,6 @@
-public class eggs extends Eat {
+public class Eggs extends Eat {
     private int packages;
-    protected eggs(String name, int cost, int quantity, String measure, String date, int packages) {
+    protected Eggs(String name, int cost, int quantity, String measure, String date, int packages) {
         super(name, cost, quantity, measure, date);
         this.packages = packages;
     }

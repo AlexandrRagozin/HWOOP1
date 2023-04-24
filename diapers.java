@@ -1,9 +1,9 @@
-public public class diapers extends ForChildren {
+public public class Diapers extends ForChildren {
     private int size;
     private int minWeight;
     private int maxWeight;
     private String type;
-    protected diapers(String name, int cost, int quantity, String measure, int minAge, String hypoallergenic,
+    protected Diapers(String name, int cost, int quantity, String measure, int minAge, String hypoallergenic,
     int size, int minWeight, int maxWeight, String type) {
         super(name, cost, quantity, measure, minAge, hypoallergenic);
         this.size = size;

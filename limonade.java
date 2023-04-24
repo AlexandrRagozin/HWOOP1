@@ -1,6 +1,6 @@
-public class lemonade extends Drinks {
+public class Lemonade extends Drinks {
 
-    protected lemonade(String name, int cost, int quantity, String measure, int volume) {
+    protected Lemonade(String name, int cost, int quantity, String measure, int volume) {
         super(name, cost, quantity, measure, volume);
     }
 

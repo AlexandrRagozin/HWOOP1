@@ -1,10 +1,10 @@
-public class product {
+public class Product {
     private String name;
     private int cost;
     private int quantity;
     private String measure;
 
-    protected product(String name, int cost, int quantity, String measure){
+    protected Product(String name, int cost, int quantity, String measure){
         this.name = name;
         this.cost = cost;
         this.quantity = quantity;
